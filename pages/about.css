@@ -1,0 +1,82 @@
+
+
+/* About Header */
+
+.aboutHeader{
+    background-image: url("assets/banner.png");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+.aboutHeader h2{
+    color: white;
+    font-size: 50px;
+}
+.aboutHeader p{
+    color: white;
+    font-size: 30px;
+}
+
+/* About Head */
+
+.aboutHead{
+    display: flex;
+    align-items: center;
+}
+
+.aboutHead img{
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+.aboutHead div{
+    padding-left: 40px;
+}
+
+.aboutHead div h2{
+    font-size: 50px;
+}
+
+/* About App */
+
+.aboutApp{
+    text-align: center;
+}
+.aboutApp h1{
+    font-size: 50px;
+}
+.aboutApp video{
+    width: 70%;
+    height: 100%;
+    margin-top: 30px auto 0 auto;
+    border-radius: 20px;
+}
+
+
+
+/* Media query */
+@media (max-width:477px){
+/* AboutPage */
+.aboutHead{
+    flex-direction: column;
+}
+.aboutHead img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.aboutHead div{
+    padding-left: 0px;
+}
+.aboutHead div h2{
+    text-align: center;
+}
+.aboutApp video{
+    width: 100%;
+}
+}
