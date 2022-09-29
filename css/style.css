@@ -131,7 +131,7 @@ body{
 /* Home Page */
 
 #hero{
-    background-image: url("media/Mug.png");
+    background-image: url("../media/Mug.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -156,7 +156,7 @@ body{
     z-index: auto;
 }
 #hero button{
-    background-image: url("media/button.png");
+    background-image: url("../media/button.png");
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -288,7 +288,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(media/banner/b2.jpg);
+    background-image: url("../media/banner/b2.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -322,7 +322,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(media/banner/gradienta-QWutu2BRpOs-unsplash.jpg);
+    background-image: url("../media/banner/gradienta-QWutu2BRpOs-unsplash.jpg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -336,7 +336,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(media/banner/tamanna-rumee-eD1RNYzzUxc-unsplash.jpg);
+    background-image: url("../media/banner/tamanna-rumee-eD1RNYzzUxc-unsplash.jpg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -376,7 +376,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("media/banner/b18.jpg");
+    background-image: url("../media/banner/b18.jpg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -387,10 +387,10 @@ body{
     margin-bottom: 20px;
 }
 #banner3 .banner-box2{
-    background-image: url("media/banner/amy-parkes-_IkXgxJZDWA-unsplash.jpg");
+    background-image: url("../media/banner/amy-parkes-_IkXgxJZDWA-unsplash.jpg");
 }
 #banner3 .banner-box3{
-    background-image: url("media/banner/frame banner.png");
+    background-image: url("../media/banner/frame banner.png");
 }
 #banner3 h2{
     color: #fff;
@@ -408,7 +408,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center; 
-    background-image: url("media/banner/b14.png");
+    background-image: url("../media/banner/b14.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -504,7 +504,7 @@ footer .copyright{
 
 /* Shop Page */
 #page-header{
-    background-image: url("media/banner/b1.jpg");
+    background-image: url("../media/banner/b1.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -593,7 +593,7 @@ footer .copyright{
 /* About Header */
 
 .aboutHeader{
-    background-image: url("media/about/banner.png");
+    background-image: url("../media/about/banner.png");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -652,7 +652,7 @@ footer .copyright{
 /* Contact Header */
 
 .contact-header{
-    background-image: url("media/about/banner.png");
+    background-image: url("../media/about/banner.png");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -848,7 +848,7 @@ footer .copyright{
         height: 70vh;
         padding: 0 80px;
         background-position: top 30% right 30% ;
-        background-image: url("media/Mug_rightnew.png");
+        background-image: url("../media/Mug_rightnew.png");
     }
 
     #feature{
@@ -919,7 +919,7 @@ footer .copyright{
     }
     #hero{
         padding: 0 0px;
-        background-image: url("media/Mug_leftnew.png");
+        background-image: url("../media/Mug_leftnew.png");
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
